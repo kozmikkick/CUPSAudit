@@ -1,0 +1,210 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:isScrollContainer="false"
+
+    tools:context="distantfantasy.cups.uniforms">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="16dp"
+                android:text="Uniforms"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/txtunotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Grade:"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/txtgradeu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/uBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="19dp"
+                android:text="Car Toppers" />
+
+            <TextView
+                android:id="@+id/txtcountu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:gravity="end"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" of" />
+
+            <TextView
+                android:id="@+id/txttotalu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/uBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Team Member Appearance" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/uBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Team Member Behavior" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <CheckBox
+                android:id="@+id/uabove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Above and Beyond"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/uabovetable"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <EditText
+                android:id="@+id/unoteabove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/explain"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/ufail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Non-Negotiables Were Present" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/ufailtable"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <EditText
+                android:id="@+id/unotesfail"
+                android:hint="@string/explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/unotetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:text="Uniforms Notes:"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/unotetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <EditText
+                android:id="@+id/unote"
+                android:hint="@string/sectionnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,224 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:isScrollContainer="false"
+
+    tools:context="distantfantasy.cups.products">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="16dp"
+                android:text="Products"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/txtpnotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="Grade:"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/txtgradep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/pBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="19dp"
+                android:text="Product Accuracy" />
+
+            <TextView
+                android:id="@+id/txtcountp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:gravity="end"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" of" />
+
+            <TextView
+                android:id="@+id/txttotalp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/pBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Dough Quality" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/pBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Product Specs" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/pBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Product Appearance" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <CheckBox
+                android:id="@+id/pabove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Above and Beyond"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/pabovetable"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <EditText
+                android:id="@+id/pnoteabove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/explain"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/pfail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:text="Non-Negotiables Were Present" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/pfailtable"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <EditText
+                android:id="@+id/pnotesfail"
+                android:hint="@string/explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/pnotetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:text="Products Notes:"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/pnotetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <EditText
+                android:id="@+id/pnote"
+                android:hint="@string/sectionnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

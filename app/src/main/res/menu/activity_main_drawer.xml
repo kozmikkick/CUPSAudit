@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/customer_view"
+            android:icon="@drawable/ic_c"
+            android:title="Customer View" />
+        <item
+            android:id="@+id/uniforms"
+            android:icon="@drawable/ic_u"
+            android:title="Uniforms" />
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/ic_p"
+            android:title="Products" />
+        <item
+            android:id="@+id/speed"
+            android:icon="@drawable/ic_s"
+            android:title="Service" />
+        <item
+            android:id="@+id/audit_details"
+            android:icon="@drawable/ic_details"
+            android:title="Audit Details" />
+    </group>
+
+</menu>
